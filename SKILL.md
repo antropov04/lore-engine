@@ -23,6 +23,10 @@ required_environment_variables:
   - name: OPENROUTER_API_KEY
     prompt: OpenRouter API key for Kimi K2.5 (free model)
     required_for: script writing
+
+required_python_packages:
+  - requests (for Etherscan API calls)
+  - manim (for video rendering, typically in a venv)
 ---
 
 # Lore Engine
