@@ -1,0 +1,11 @@
+.env
+*.env
+__pycache__/
+*.pyc
+media/
+*.mp4
+*.mp3
+event.json
+script.json
+assets/bg_loop.mp3
+manim_template.py
