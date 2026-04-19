@@ -5,6 +5,16 @@ Script by Kimi K2.5. Animation by Manim. Voice by ElevenLabs. Muxing by ffmpeg.
 
 Built for the Nous Research Hermes Agent Creative Hackathon (April 2026). Kimi Track eligible.
 
+## Demo: Hermes Agent running the skill
+
+The agent loads the skill and delegates each pipeline stage to its terminal tool, with zero manual steps from the user.
+
+![Hermes loads the lore-engine skill and starts the pipeline](docs/hermes-skill-loading.png)
+
+![Hermes returns the final video path after running all 4 scripts](docs/hermes-output.png)
+
+
+
 ## How it works
 
 Paste a tx hash into the Hermes CLI. The agent takes over:
